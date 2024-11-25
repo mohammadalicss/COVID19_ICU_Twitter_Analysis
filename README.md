@@ -28,22 +28,19 @@ This project explores ICU-related discussions on Twitter during the first six mo
 
 ## Python script, sample data, and output  
 I have executed and tested this script on Google Colab. It can be modified to run in other environments. The Python script included in this repository includes:
-+ Little data pre-processing steps
 + Descriptive analysis 
 + Time-series analysis 
 + Sentiment analysis 
-+ LDA-based topic modeling 
++ LDA-based topic modeling (in-progress)
++ Computational framing analysis (in-progress)
 
-Requirements
-
+## Requirements
 Python libraries, used in the script, include:
-requests
-BeautifulSoup (from bs4)
-pandas
-os
-csv
+- pandas
+- matplotlib
+- nltk
+- sklearn
+- os
 
 ### Contact
 For questions or potential collaboration, feel free to reach out at mali24@umd.edu
-
-
